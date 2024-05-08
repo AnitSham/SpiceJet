@@ -12,10 +12,10 @@ import utility.Utility;
 public class Specification extends Utility {
 
 	
-
+	@Parameters({ "browser", "url" })
 	@BeforeMethod
 
-	@Parameters({ "browser", "url" })
+
 	public void browserLaunch(String browser, String url) {
 
 		launchBrowser(browser, url);
