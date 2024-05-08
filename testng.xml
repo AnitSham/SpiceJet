@@ -20,20 +20,4 @@
 		</classes>
 	</test>
 
-	<test name="TestFirefoxBrowser">
-		<parameter name="url" value="https://www.spicejet.com/"></parameter>
-
-		<parameter name="browser" value="firefox"></parameter>
-		<classes>
-
-			<class name="testcases.TC001_SignUpTest" />
-			<class name="testcases.TC002_LoginTest" />
-			<class name="testcases.TC003_SearchFlightOneWayTest" />
-			<class name="testcases.TC004_SearchFlightTwoWayTest" />
-			<class name="testcases.TC005_ValidationTest" />
-
-		</classes>
-	</test>
-
-
 </suite> 
