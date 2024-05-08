@@ -1,2 +1,2 @@
 # SpiceJet
-Oneway and roundtrip
+Oneway and Twoway
